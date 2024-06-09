@@ -16,7 +16,7 @@
 
 
     <div class ="main">
-        <section class=headerSection">
+        <section class="headerSection">
             <p>
                 This is not a real online service. <br> 
                 This is a template sign up form, <br>
@@ -28,40 +28,50 @@
         <section class="mainForm">
             <form class="signUpForm" action="">
                 <div class="form-row">
-                    <label for="fname">Firt Name</label>
-                    <input id="fname" name='fname' type="text">
-
-                    <label for="lname">Last Name</label>
-                    <input id="lname" name='lname' type="text">
+                    <div class="form-cell">
+                        <label for="fname">First Name</label>
+                        <input id="fname" name='fname' type="text">
+                    </div>
+                    <div class="form-cell">
+                        <label for="lname">Last Name</label>
+                        <input id="lname" name='lname' type="text">
+                    </div>
                 </div>
 
                 <div>
-                    <label for='email'>Email</label>
-                    <input id='email'
-                        name='email'
-                        type='email'
-                        placeholder='joe@example.com'/>
-
-                    <label for="phoneNumber">Phone Number</label>
-                    <input type="number"
-                        id="phoneNumber"
-                        name="phoneNumber"/>
+                    <div class="form-cell">
+                        <label for='email'>Email</label>
+                        <input id='email'
+                            name='email'
+                            type='email'
+                            placeholder='joe@example.com'/>
+                    </div>
+                    <div class="form-cell">
+                        <label for="phoneNumber">Phone Number</label>
+                        <input type="number"
+                            id="phoneNumber"
+                            name="phoneNumber"/>
+                    </div>
                 </div>
                 <div>
-                    <label for="password">Password</label>
-                    <input type="password" name="password" id="password">
-
-                    <label for="cpassword">Confirm Password</label>
-                    <input type="password" name="cpassword" id="cpassword">     
+                    <div class="form-cell">
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="password">
+                    </div>
+                    <div class="form-cell">
+                        <label for="cpassword">Confirm Password</label>
+                        <input type="password" name="cpassword" id="cpassword">     
+                    </div>
                 </div>
-
-
-
-                <div class='form-row'>
-                    <button>Submit</button>
-                  </div>
 
         </section>
+
+        <section class="submitForm">
+            <div class='form-row'>
+                <button>Create Account</button>
+            </div>
+        </section>
+
     </div>
 
 
