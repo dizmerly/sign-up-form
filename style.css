@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+
+.leftSection {
+    width: 30vw; 
+    height: 100vh;
+    background-color: lightblue;
+}
+
+.main{
+    width: 70vw;
+    padding-left: 10vw;
+    background-color: lightcoral;
+}
+
+.headerSection {
+    height: 30vh;
+    width: auto;
+    background-color: aliceblue;
+}

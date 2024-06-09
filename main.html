@@ -5,8 +5,65 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up Form</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <section class="leftSection">
+
+        <div class=logo>Logo Placeholder</div>
+
+    </section>
+
+
+    <div class ="main">
+        <section class=headerSection">
+            <p>
+                This is not a real online service. <br> 
+                This is a template sign up form, <br>
+                built to practice form creation skills. <br>
+                Sign Up down below
+            </p>
+        </section>  
+
+        <section class="mainForm">
+            <form class="signUpForm" action="">
+                <div class="form-row">
+                    <label for="fname">Firt Name</label>
+                    <input id="fname" name='fname' type="text">
+
+                    <label for="lname">Last Name</label>
+                    <input id="lname" name='lname' type="text">
+                </div>
+
+                <div>
+                    <label for='email'>Email</label>
+                    <input id='email'
+                        name='email'
+                        type='email'
+                        placeholder='joe@example.com'/>
+
+                    <label for="phoneNumber">Phone Number</label>
+                    <input type="number"
+                        id="phoneNumber"
+                        name="phoneNumber"/>
+                </div>
+                <div>
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password">
+
+                    <label for="cpassword">Confirm Password</label>
+                    <input type="password" name="cpassword" id="cpassword">     
+                </div>
+
+
+
+                <div class='form-row'>
+                    <button>Submit</button>
+                  </div>
+
+        </section>
+    </div>
+
+
 </body>
 </html>
