@@ -52,26 +52,24 @@ body {
     overflow: auto;
 }
 .mainForm .signUpForm{
-    display: table;
-    /* width: 40vw;
-    height: 20vh; */
-    margin-left: 4vw;
-    
+    margin-left: 2vw;
+
 }
 
 .mainForm .signUpForm .form-row{
-    display: table-cell;
 }
 
 .mainForm .form-cell{
+    display: table-cell;
     width: 20vw;
-    gap: 20px;
+    padding-left: 2vw;
+    padding-top: 2vh;
     
 }
 
 .mainForm .form-cell input{
     height: 4vh;
-    width: 25vw;
+    width: 20vw;
     border-radius: 4px;
     border: 1px solid rgb(197, 197, 197);
 
@@ -83,5 +81,20 @@ body {
     background: rgb(162, 162, 162);
 }
 .submitForm button{
-    background-color: rgb(228, 226, 226);
+    width: 12vw;
+    height: 6vh;
+    margin-left: 4vw;
+    margin-top: 4vh;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 8px 4px 10px 2px rgb(108, 108, 108);
+    font-family: "Helvetica";
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: white;
+    background-color: rgb(57, 124, 58);
+}
+
+.submitForm p{
+    
 }
