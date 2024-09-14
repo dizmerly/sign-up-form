@@ -15,6 +15,28 @@ body {
     height: 100vh;
     background-color: lightblue;
 }
+.leftSection .bgimage{
+    max-height: 100%;
+}
+
+.leftSection .logo{
+    width: 30vw;
+    height: 16vh;
+    position: absolute;
+    top: 24vh;
+    bottom: 20vh;
+    /* I dont know if this is the best way to overlay the container above 
+    below the background image below it */
+    background-color: rgba(11, 11, 11, 0.548);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img{
+    width: 10vw;
+    height: auto;
+}
 
 .main{
     /* width: 70vw; */
@@ -31,7 +53,7 @@ body {
     width: 70vw;
     height: 40vh;
     background-color: rgb(221, 221, 221);
-    font-size: 40px;
+    font-size: 2rem;
     font-family: Georgia;
     overflow: auto;
 }
@@ -84,7 +106,7 @@ body {
     width: 12vw;
     height: 6vh;
     margin-left: 4vw;
-    margin-top: 4vh;
+    margin-top: 2vh;
     border-radius: 4px;
     border: none;
     box-shadow: 8px 4px 10px 2px rgb(108, 108, 108);
@@ -96,5 +118,16 @@ body {
 }
 
 .submitForm p{
-    
+    margin-top: 2vh;
+    margin-left: 4vw;
+    color: white;
+}
+
+.submitForm a{
+    color: rgb(57, 124, 58);
+    font-family: "Georgia";
+}
+
+.submitForm a:link{
+    text-decoration: none;
 }
